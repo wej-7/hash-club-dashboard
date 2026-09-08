@@ -76,7 +76,7 @@ with col_left:
         xaxis_title="",
         yaxis_title="القيمة"
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False})
 
 with col_right:
     st.subheader("البطاقات التفصيلية للسجلات")
